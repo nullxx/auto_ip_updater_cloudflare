@@ -1,4 +1,4 @@
-# AUTO UPDATER CLOUDFLARE
+# AUTO IP UPDATER CLOUDFLARE
 
   (preferred to ubuntu)
 1. Download `jq` from here `https://stedolan.github.io/jq/download/`
