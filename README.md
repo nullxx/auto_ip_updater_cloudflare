@@ -6,3 +6,4 @@
 3. Download `dnsUpdater.sh` from this repo and `chmod +x dnsUpdater.sh`
 4. Replace all variables in `dnsUpdater.sh` (`<YOUR_...>`)
 5. Execute script: `./dnsUpdater.sh`
+6. You can add it to crontab by: `crontab -e`
