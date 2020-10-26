@@ -14,7 +14,7 @@ STORED_IP=$(cat ipstored)
 SEND_UPDATE_EMAIL=
 
 
-PUBLIC_IP=$(curl  -s 'icanhazip.com')
+PUBLIC_IP=$(host myip.opendns.com resolver1.opendns.com | grep "myip.opendns.com has" | awk '{print $4}')
 
 if [[ $STORED_IP != $PUBLIC_IP ]]
 then
